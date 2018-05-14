@@ -1,0 +1,11 @@
+﻿$PBExportHeader$f_1.srf
+global type f_1 from function_object
+end type
+
+forward prototypes
+global function integer f_1 ()
+end prototypes
+
+global function integer f_1 ();return 12
+end function
+

@@ -1,0 +1,2 @@
+﻿$PBExportHeader$q_2.srq
+PBSELECT( VERSION(400) TABLE(NAME="bonus" ) COLUMN(NAME="bonus.emp_id") COLUMN(NAME="bonus.bonus_date") COLUMN(NAME="bonus.bonus_amount")) 
