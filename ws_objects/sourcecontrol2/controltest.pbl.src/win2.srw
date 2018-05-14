@@ -32,8 +32,8 @@ destroy(this.cb_1)
 end on
 
 type cb_1 from commandbutton within win2
-integer x = 475
-integer y = 384
+integer x = 256
+integer y = 320
 integer width = 457
 integer height = 132
 integer taborder = 10

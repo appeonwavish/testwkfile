@@ -1,12 +1,12 @@
-﻿$PBExportHeader$nnwin.srw
+﻿$PBExportHeader$testwin.srw
 forward
-global type nnwin from window
+global type testwin from window
 end type
-type cb_1 from commandbutton within nnwin
+type cb_1 from commandbutton within testwin
 end type
 end forward
 
-global type nnwin from window
+global type testwin from window
 integer width = 3959
 integer height = 1648
 boolean titlebar = true
@@ -20,19 +20,19 @@ string icon = "AppIcon!"
 boolean center = true
 cb_1 cb_1
 end type
-global nnwin nnwin
+global testwin testwin
 
-on nnwin.create
+on testwin.create
 this.cb_1=create cb_1
 this.Control[]={this.cb_1}
 end on
 
-on nnwin.destroy
+on testwin.destroy
 destroy(this.cb_1)
 end on
 
-type cb_1 from commandbutton within nnwin
-integer x = 293
+type cb_1 from commandbutton within testwin
+integer x = 439
 integer y = 384
 integer width = 457
 integer height = 132
