@@ -1,5 +1,0 @@
-﻿$PBExportHeader$s_2.srs
-global type s_2 from structure
-	string		a
-end type
-
