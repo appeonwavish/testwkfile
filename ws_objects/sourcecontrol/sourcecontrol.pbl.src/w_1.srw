@@ -22,7 +22,7 @@ cb_1 cb_1
 end type
 global w_1 w_1
 
-event open;//123
+event open;//u
 end event
 
 on w_1.create
